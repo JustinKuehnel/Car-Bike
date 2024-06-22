@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "carvsbike"
+version = "0.1.0"
+description = ""
+authors = ["JustinKuehnel <justin.kuehnel@outlook.de>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+tensorflow = "^2.16.1"
+opencv-python = "^4.10.0.84"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
